@@ -38,6 +38,7 @@ class _SensorAppState extends State<SensorApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text('DHT11 Sensor Data'),
