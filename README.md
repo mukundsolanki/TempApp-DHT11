@@ -30,11 +30,14 @@ flutter pub get
 
 3. Make sure your Raspberry Pi with DHT11 sensor and Flask backend server are set up and running.
 
-  - you can find the code for rasberry pi in `/DHT_SENSOR/DHTsensor.py`.
+    - you can find the code for rasberry pi in `/DHT_SENSOR/DHTsensor.py`.
+
 
 4. Locate the file `lib/main.dart` and IP Address with the IP address of your rasberrypi.
 
+
 5. Connect your Android or iOS device or start an emulator.
+
 
 6. Run you application:
 ```
